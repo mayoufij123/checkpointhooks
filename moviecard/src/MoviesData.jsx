@@ -1,6 +1,6 @@
 export const MoviesData = [
 {
-    id: Math.random(),
+    id:1,
     image:
       'https://i.pinimg.com/originals/4d/ea/be/4deabeb03554cacdba17995886789005.jpg',
     rating: 4,
@@ -12,7 +12,7 @@ export const MoviesData = [
       isDone:false
     },
   {
-    id: Math.random(),
+    id: 2,
     image:
       'https://static.cinemagia.ro/img/db/movie/00/69/88/once-upon-a-time-in-the-west-549264l.jpg',
     rating: 5,
@@ -23,7 +23,7 @@ export const MoviesData = [
       'A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.',
       isDone:false},
   {
-    id: Math.random(),
+    id: 3,
     image:
       'https://i.pinimg.com/564x/37/bd/f8/37bdf8f405a30977959e112d6f48aec0.jpg',
     rating: 4,
@@ -34,7 +34,7 @@ export const MoviesData = [
       'A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.',
       isDone:false},
   {
-    id: Math.random(),
+    id: 4,
     image:
       'https://i.pinimg.com/564x/78/55/ac/7855acc7002b1ae619b1edaa4b595df3.jpg',
     rating: 4,
@@ -46,7 +46,7 @@ export const MoviesData = [
   
       isDone:false  },
   {
-    id: Math.random(),
+    id: 5,
     image:
       'https://mir-s3-cdn-cf.behance.net/project_modules/disp/b1330b14202071.5627f4dc23472.jpg',
     rating: 3,
@@ -58,7 +58,7 @@ export const MoviesData = [
   
       isDone:false  },
   {
-    id: Math.random(),
+    id: 6,
     image:
       'https://i.pinimg.com/564x/32/49/1c/32491ccd2f4ce577dea8871988c5828c.jpg',
     rating: 5,

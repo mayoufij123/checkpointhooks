@@ -58,3 +58,8 @@ h2 {
 .image {
     width: 250px;
 }
+
+button {
+    height: 50px;
+    width: 50px;
+}
