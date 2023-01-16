@@ -1,15 +1,25 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+
 import { Link } from 'react-router-dom'
 const MovieCard = ({movie}) => {
   return (
     <div className='box' >
-      
-      <img src={movie.image} alt="image"  className=' image'/>
-      <h1>{movie.name}</h1>
-      <h2>{movie.type} ||{movie.rating}|| {movie.date}</h2>
-      <h2>{movie.description}</h2>
-      <Link to={`/trailer/${movie.id}`}> <button>go to trailer
+      <Card style={{ width: '15rem' }} className='card'>
+      <Card.Img variant="top" src={movie.image} className= 'imagee' />
+      <Card.Body>
+        <Card.Title>{movie.name}</Card.Title>
+        <Card.Text>
+          {movie.description}
+        </Card.Text>
+        <Button variant="primary">{movie.date}|| {movie.type} || {movie.rating} </Button>
+        <Link to={`/trailer/${movie.id}`}> <button>go to trailer
         </button></Link>
+      </Card.Body>
+
+    </Card>
+      
       
     </div>
   )
